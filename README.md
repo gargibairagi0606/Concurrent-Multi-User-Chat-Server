@@ -54,8 +54,9 @@ In real-world applications, authentication is typically handled using secure dat
 
 ```
 multi-user-chat-server/
-├── client.py
-├── server.py
+├── src/
+│   ├── client.py
+│   └── server.py
 ├── README.md
 └── .gitignore
 ```
@@ -78,11 +79,11 @@ python src/client.py
 - Type any message to broadcast it.
 
 - Private message format:    
-```css
+```text
 @username message
 ```
  Example:
-```sql
+```text
 @user2 Hello, how are you?
 ```
 - To exit the chat:
